@@ -1,0 +1,64 @@
+.cardListt {
+    width:100%;
+    padding:20px 0px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    height: 100%;
+}
+
+.Mycard {
+    width: 250px;
+    height: 320px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.594) 0px 0px 7px;
+}
+
+.Mycard .fatherImag {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.Mycard .img-card {
+    width: 100%;
+    transition: all .6s ease-in-out;
+
+}
+
+.Mycard:hover .info-card {
+    width: 100%;
+    font-size: 18px;
+}
+.Mycard:hover .img-card {
+    transform: scale(1.2);
+}
+
+.info-card {
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(161, 7, 7, 0.729), rgba(0, 0, 0, 0.836));
+    color: white;
+    font-size: 0px;
+}
+.afe{
+    color: white;
+    text-align: center;
+    background-color:#D10404 ;
+    padding: 20px;
+    border: black 2px dashed;
+    border-radius: 20px;
+
+}

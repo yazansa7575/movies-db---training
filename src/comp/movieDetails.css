@@ -1,0 +1,57 @@
+.father-info-movie {
+    background-color: rgba(255, 255, 255, 0.638);
+    margin: 3% 0% 2% 0% !important;
+    padding: 1%;
+}
+.image-father{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-father img {
+    width: 100%;
+    padding: 0% !important;
+    margin: 0% !important;
+}
+
+.info-movie {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 2% !important;
+    font-weight: 500;
+
+}
+
+.info-movie p {
+    padding-right: 20px;
+}
+
+.story-movie {
+    background-color: rgba(255, 255, 255, 0.638);
+    padding: 1%;
+    margin: 0% 0% 3% 0% !important;
+
+}
+
+.story-movie p {
+    font-weight: 500;
+    font-size: 19px;
+
+}
+
+.tow-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2%;
+}
+
+.tow-btn button {
+    margin-left: 1%;
+    margin-bottom: 3%;
+    width: 240px;
+    height: 45px;
+}
